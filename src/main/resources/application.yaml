@@ -1,3 +1,12 @@
 spring:
   application:
     name: chatio-backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
+jwt:
+  key: YzEyMzR0bXZxQzRmNTZ2cEFoUGVpMWdIajU3aWdoZ2g
